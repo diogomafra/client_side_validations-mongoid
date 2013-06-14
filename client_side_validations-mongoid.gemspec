@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
   gem.version       = ClientSideValidations::Mongoid::VERSION
 
-  gem.add_dependency 'client_side_validations', '~> 4.0.0.dev'
+  gem.add_dependency 'client_side_validations', '~> 3.2.2'
   gem.add_dependency 'mongoid', '~> 4.0.0.dev'
 
   gem.add_development_dependency 'bson_ext'
